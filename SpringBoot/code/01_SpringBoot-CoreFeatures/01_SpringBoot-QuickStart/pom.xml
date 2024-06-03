@@ -8,7 +8,7 @@
     <artifactId>01_SpringBoot-QuickStart</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!-- 所有SpringBoot项目都必须继承自spring-boot-starter-parent -->
+    <!-- 所有SpringBoot项目都必须继承自spring-boot-starter-parent依赖 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -16,14 +16,10 @@
     </parent>
 
     <dependencies>
+        <!--web开发的场景启动器-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.76</version>
         </dependency>
     </dependencies>
 
